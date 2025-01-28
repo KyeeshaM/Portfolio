@@ -290,8 +290,8 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    header ul {
-        flex-direction: column;
+    header {
+        display: none;
     }
 
     .badges {
