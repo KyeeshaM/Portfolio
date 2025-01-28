@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Light/Dark Mode Toggle -->
+<div class="theme-toggle">
+    <label class="switch">
+        <input type="checkbox" id="themeSwitcher">
+        <span class="slider"></span>
+    </label>
+    <p>Dark Mode</p>
+</div>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects"> Key Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <h1>Kyeesha Marshall</h1>
+        <p>Hey there! My name is Kyeesha Marshall, and I’m a proud recent graduate of North Carolina A&T State University with a degree in Computer Science. I have a deep passion for web design and love creating engaging, user-friendly digital experiences. This portfolio provides insight into my life by highlighting some of my most important projects, skills, and a bit of my personality. As you’ve probably guessed, my favorite color is purple, and it’s shown throughout this site to reflect my creative and vibrant approach to design. <p/>
+        <p>Look around, and don't hesitate to get in touch—I'd love to connect and collaborate! </p>
+        <img src="Photos/Headshot.png" alt="Headshot" width="300" height="300">
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Truecolor GAN Project</h3>
+            <p>Led a team to develop a GAN-based application for generating COVID-related medical images. Responsible for front-end development and team coordination.</p>
+            <a href="https://www.canva.com/design/DAGcr_nnHtk/c1zrv624Fjh2KFUHkNsTag/view?utm_content=DAGcr_nnHtk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h91f0e48daa">View Presentation</a>
+        </div>
+        <div class="project">
+            <h3>Hackathon Website</h3>
+            <p>A collaborative project where I served as the front-end developer. Designed and implemented the UI for a web application in 48 hours.</p>
+            <a href="https://kyeesham.github.io/HogwartsLibrary-/">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Byte Binder</h3>
+            <p>A specialized platform for computer science students at North Carolina A&T State Univeristy to access and share notes exclusively for required computer science classes
+            </p>
+            <a href="https://kyeesham.github.io/ByteBinder/">View Project</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="badges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Python</span>
+            <span class="badge">Java</span>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <p>Feel free to reach out! I'm always open to chat!</p>
+        <form
+                action="https://formspree.io/f/xldgjpkp"
+                method="POST"
+        >
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="fade-in">
+        <h1>Gallery</h1>
+        <div class="gallery-item">
+        <img src="Photos/GRAD4.JPEG" alt="GradPics" width="200" height="200">
+        </div>
+        <div class="gallery-item">
+            <img src="Photos/GRAD3.jpg" alt="GradPics" width="200" height="200">
+        </div>
+        <br>
+        <div class="gallery-item">
+            <img src="Photos/GRAD6.jpeg" alt="AGGIE PRIDE!" width="200" height="200">
+    </section>
+
+</main>
+
+<!-- Navigation Arrows -->
+<div class="nav-arrows">
+    <button id="prev" aria-label="Previous Section">&larr;</button>
+    <button id="next" aria-label="Next Section">&rarr;</button>
+</div>
+
+<footer>
+    <p>Kyeesha Marshall Portfolio</p>
+</footer>
+
+<!-- Link to the JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
